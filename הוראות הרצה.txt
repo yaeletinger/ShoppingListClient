@@ -1,0 +1,25 @@
+-להריץ את הסקריפט ב Sql:
+כדי ליצור ב database (cart) טבלה categories.
+
+CREATE TABLE categories (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO categories (name) VALUES
+  ('מוצרי ניקיון'),
+  ('גבינות'),
+  ('ירקות ופירות'),
+  ('בשר ודגים'),
+  ('מאפים');
+
+
+
+
+הוראות הרצה-----
+כדי להריץ את פרויקט node.js:
+node server.js
+
+כדי להריץ את פרויקט react:
+npm start
